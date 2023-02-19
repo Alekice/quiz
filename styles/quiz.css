@@ -1,0 +1,609 @@
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro.eot');
+	src: local('☺'),
+		url('fonts/DINPro.woff2') format('woff2'),
+		url('fonts/DINPro.woff') format('woff'),
+		url('fonts/DINPro.ttf') format('truetype'),
+		url('fonts/DINPro.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro-Medium.eot');
+	src: local('☺'),
+		url('fonts/DINPro-Medium.woff2') format('woff2'),
+		url('fonts/DINPro-Medium.woff') format('woff'),
+		url('fonts/DINPro-Medium.ttf') format('truetype'),
+		url('fonts/DINPro-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro-Bold.eot');
+	src: local('☺'),
+		url('fonts/DINPro-Bold.woff2') format('woff2'),
+		url('fonts/DINPro-Bold.woff') format('woff'),
+		url('fonts/DINPro-Bold.ttf') format('truetype'),
+		url('fonts/DINPro-Bold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro-Light.eot');
+	src: local('☺'),
+		url('fonts/DINPro-Light.woff2') format('woff2'),
+		url('fonts/DINPro-Light.woff') format('woff'),
+		url('fonts/DINPro-Light.ttf') format('truetype'),
+		url('fonts/DINPro-Light.svg') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro-Italic.eot');
+	src: local('☺'),
+		url('fonts/DINPro-Italic.woff2') format('woff2'),
+		url('fonts/DINPro-Italic.woff') format('woff'),
+		url('fonts/DINPro-Italic.ttf') format('truetype'),
+		url('fonts/DINPro-Italic.svg') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINPro';
+	font-display: swap;
+	src: url('fonts/DINPro-MediumItalic.eot');
+	src: local('☺'),
+		url('fonts/DINPro-MediumItalic.woff2') format('woff2'),
+		url('fonts/DINPro-MediumItalic.woff') format('woff'),
+		url('fonts/DINPro-MediumItalic.ttf') format('truetype'),
+		url('fonts/DINPro-MediumItalic.svg') format('svg');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	font-display: swap;
+	src: url('fonts/DINPro-CondensedLight.eot');
+	src: local('☺'),
+		url('fonts/DINPro-CondensedLight.woff2') format('woff2'),
+		url('fonts/DINPro-CondensedLight.woff') format('woff'),
+		url('fonts/DINPro-CondensedLight.ttf') format('truetype'),
+		url('fonts/DINPro-CondensedLight.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	font-display: swap;
+	src: url('fonts/DINPro-CondensedRegular.eot');
+	src: local('☺'),
+		url('fonts/DINPro-CondensedRegular.woff2') format('woff2'),
+		url('fonts/DINPro-CondensedRegular.woff') format('woff'),
+		url('fonts/DINPro-CondensedRegular.ttf') format('truetype'),
+		url('fonts/DINPro-CondensedRegular.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	font-display: swap;
+	src: url('fonts/DINPro-CondensedMedium.eot');
+	src: local('☺'),
+		url('fonts/DINPro-CondensedMedium.woff2') format('woff2'),
+		url('fonts/DINPro-CondensedMedium.woff') format('woff'),
+		url('fonts/DINPro-CondensedMedium.ttf') format('truetype'),
+		url('fonts/DINPro-CondensedMedium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	font-display: swap;
+	src: url('fonts/DINPro-CondensedBold.eot');
+	src: local('☺'),
+		url('fonts/DINPro-CondensedBold.woff2') format('woff2'),
+		url('fonts/DINPro-CondensedBold.woff') format('woff'),
+		url('fonts/DINPro-CondensedBold.ttf') format('truetype'),
+		url('fonts/DINPro-CondensedBold.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DINPro-Condensed';
+	font-display: swap;
+	src: url('fonts/DINPro-CondensedBoldItalic.eot');
+	src: local('☺'),
+		url('fonts/DINPro-CondensedBoldItalic.woff2') format('woff2'),
+		url('fonts/DINPro-CondensedBoldItalic.woff') format('woff'),
+		url('fonts/DINPro-CondensedBoldItalic.ttf') format('truetype'),
+		url('fonts/DINPro-CondensedBoldItalic.svg') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+::-webkit-input-placeholder {
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	opacity: 1;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+	opacity: 1;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+	opacity: 1;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	font-family: 'DINPro', Arial, sans-serif;
+	font-size: 17px;
+	line-height: 22px;
+	font-weight: 400;
+	color: #1e293f;
+	max-width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #81a3be;
+	text-decoration: none;
+	outline: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+p,
+a,
+ul li,
+ol li,
+div {
+	-webkit-text-size-adjust: 100%;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	border: none;
+	outline: none;
+}
+
+.content-container {
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	padding: 90px 15px;
+}
+
+.content-big-container {
+	width: 100%;
+	max-width: 1920px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.full-width-container {
+	width: 100%;
+	height: auto;
+	margin: 0;
+}
+
+.columns {
+	display: -webkit-flex;
+	display: flex;
+	height: auto;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.phone {
+	pointer-events: none;
+	white-space: nowrap;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.blue {
+	color: #81a3be;
+}
+
+.green {
+	color: #aed6a3;
+}
+
+.vertical {
+	display: flex;
+	position: absolute;
+	left: 0;
+	top: 4px;
+	width: auto;
+	height: auto;
+	writing-mode: vertical-lr;
+	writing-mode: tb-lr;
+	text-transform: uppercase;
+	-moz-transform: rotate(180deg);
+	/* Для Firefox */
+	-ms-transform: rotate(180deg);
+	/* Для IE */
+	-webkit-transform: rotate(180deg);
+	/* Для Safari, Chrome, iOS */
+	-o-transform: rotate(180deg);
+	/* Для Opera */
+	transform: rotate(180deg);
+}
+
+.show-mobile,
+.hide {
+	display: none;
+}
+
+.button {
+	display: inline-block;
+	font-family: 'DINPro-Condensed', Arial, sans-serif;
+	font-size: 19px;
+	line-height: 30px;
+	font-weight: 600;
+	color: #ffffff;
+	padding: 15px;
+	background: #313940;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.button:hover {
+	background: #1d2328;
+}
+
+.button.button-blue {
+	background: #41688e;
+}
+
+.button.button-blue:hover {
+	background: #375c81;
+}
+
+.button.button-green {
+	background: #9fc386;
+}
+
+.button.button-green:hover {
+	background: #93ba79;
+}
+
+.button.button-light {
+	font-family: 'DINPro', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+	padding: 11px 10px;
+	letter-spacing: -0.5px;
+	background: #81a3be;
+}
+
+.button.button-light:hover {
+	background: #a4bed5;
+}
+
+.title {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	font-family: 'DINPro-Condensed', Arial, sans-serif;
+	font-size: 44px;
+	line-height: 44px;
+	font-weight: 600;
+	color: #11243d;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0 0 5px 0;
+	padding: 0 0 0 30px;
+}
+
+h2:before,
+h3:before,
+p.title:before,
+#content h1:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 7px;
+	width: 7px;
+	height: calc(100% - 7px);
+	background: #11243d;
+}
+
+h2 span,
+h3 span,
+p.title span,
+#content h1 span {
+	display: block;
+	position: relative;
+	color: #81a3be;
+}
+
+h2 span:after,
+h3 span:after,
+p.title span:after,
+#content h1 span:after {
+	content: '';
+	position: absolute;
+	left: -30px;
+	top: 5px;
+	width: 7px;
+	height: calc(100% - 5px);
+	background: #81a3be;
+}
+
+p.subtitle {
+	display: inline-block;
+	width: 100%;
+	font-family: 'DINPro-Condensed', Arial, sans-serif;
+	font-size: 25px;
+	line-height: 33px;
+	font-weight: 400;
+	color: #11243d;
+	text-align: left;
+	margin: 0;
+	padding: 0 0 0 30px;
+}
+
+p.subtitle span {
+	font-weight: 600;
+}
+
+/********* QUIZ *********/
+
+.quiz {
+	background-color: #303c4a;
+}
+
+.quiz .title-container {
+	margin: 0 0 50px 0;
+}
+
+.quiz .title {
+	color: #aed6a3;
+}
+
+.quiz .title:before {
+	background-color: #aed6a3;
+}
+
+.quiz .title span {
+	color: #ffffff;
+}
+
+.quiz .title span:after {
+	background-color: #ffffff;
+}
+
+.quiz .subtitle {
+	color: #ffffff;
+}
+
+.quiz__content {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 30px 0px rgb(0 0 0 / 10%);
+}
+
+.quiz__header {
+	height: 60px;
+    background-color: #41688e;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.count {
+	font-family: 'DINPro-Condensed', Arial, sans-serif;
+	color: #ffffff;
+	font-size: 26px;
+	line-height: 32px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+}
+
+.quiz-question {
+	padding: 30px;
+}
+
+.quiz-question__title {
+	font-family: 'DINPro-Condensed', Arial, sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	letter-spacing: -0.5px;
+	margin: 0 0 20px;
+}
+
+.quiz-question__answers {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.quiz-question__input {
+	display: none;
+	pointer-events: none;
+}
+
+.quiz-question__input-text {
+	width: 100%;
+    height: 100%;
+	padding: 15px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: 19px;
+    color: #1e293f;
+}
+
+.quiz-question__input-text::placeholder,
+.quiz-question__textarea::placeholder {
+	color: rgba(30, 41, 63, 0.5);
+}
+
+.quiz-question__textarea {
+    resize: none;
+    width: 100%;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 19px;
+	color: inherit;
+    min-height: 250px;
+    outline: none;
+	border: 1px solid rgba(65, 104, 142, 0.5);
+}
+
+.quiz-question__textarea:focus {
+	border: 1px solid rgba(65, 104, 142, 1);
+}
+
+.quiz-question__button {
+	width: 140px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #41688e;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+	border: none;
+	margin: 30px 0 0 auto;
+}
+
+.quiz-question__button:hover {
+	opacity: 0.9;
+}
+
+.quiz-question__answer {
+	width: calc(50% - 6px);
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	font-size: 19px;
+	cursor: pointer;
+	border: 1px solid rgba(65, 104, 142, 0.5);
+	margin: 0 0 12px 0;
+	transition: .3s;
+}
+
+.quiz-question__answer_text {
+	padding: 0;
+}
+
+.quiz-question__answer_textarea {
+	width: 100%;
+	padding: 0;
+	border: none;
+}
+
+.quiz-question__answer.checked {
+	border-color: rgba(65, 104, 142, 1);
+}
+
+.quiz-question__answer:not(.quiz-question__answer_textarea):nth-of-type(2n + 1) {
+	margin-right: 12px;
+}
+
+.custom-checkbox {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #41688e;
+	margin: 0 10px 0 0;
+	flex-shrink: 0;
+}
+
+.custom-radio {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #41688e;
+	margin: 0 10px 0 0;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.quiz-question__answer.checked .custom-checkbox,
+.quiz-question__answer.checked .custom-radio {
+	background-color: #41688e;
+}
+
+.quiz-question__answer span {
+	pointer-events: none;
+}
+
+.quiz-question__warning {
+	font-size: 18px;
+	color: #cf0b04;
+}
+
+/********* End of QUIZ *********/
